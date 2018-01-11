@@ -10,6 +10,7 @@ def prime? (int)
         array = (a...new_last).to_a
       end
       return true
+    end
   elsif int == 2 || int == 3 || int == 5
     true
   else
