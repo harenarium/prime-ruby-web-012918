@@ -11,7 +11,6 @@ def prime? (int)
         array = (a...new_last).to_a
       end
     end
-    puts array.inspect
     return true
   elsif int == 2 || int == 3 || int == 5
     true
@@ -19,5 +18,3 @@ def prime? (int)
     false
   end
 end
-
-prime?(1763)
