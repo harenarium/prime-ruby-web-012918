@@ -2,7 +2,7 @@
 def prime? (int)
   # removed int.is_a? Integer && from below
   if (int >2 && int.odd?)
-    array=(1...int).to_a
+    array=(2...int).to_a
     array.each do |a|
       if (int%a ==0)
         return false
