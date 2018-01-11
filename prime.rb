@@ -10,6 +10,7 @@ def prime? (int)
         new_last = int/a
         array = (a...new_last).to_a
       end
+      puts array
       return true
     end
   elsif int == 2 || int == 3 || int == 5
@@ -18,3 +19,5 @@ def prime? (int)
     false
   end
 end
+
+prime?(1763)
