@@ -10,9 +10,9 @@ def prime? (int)
         new_last = int/a
         array = (a...new_last).to_a
       end
-      puts array.inspect
-      return true
     end
+    puts array.inspect
+    return true
   elsif int == 2 || int == 3 || int == 5
     true
   else
